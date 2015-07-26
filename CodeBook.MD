@@ -1,9 +1,9 @@
 Getting & Cleaning Data Project
 
-### Description
+## Description
 Additional information about the variables, data and transformations used in the course project for the Johns Hopkins Getting and Cleaning Data course.
 
-### Source Data
+## Source Data
 A full description of the data used in this project can be found at The UCI Machine Learning Repository
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
@@ -11,7 +11,7 @@ The source data for this project can be found here.
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 
-### Data Set Information
+## Data Set Information
 - The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. 
 - Each person performed the following 6 activities wearing a smartphone (Samsung Galaxy S II) on the waist:
 WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING.
@@ -23,7 +23,7 @@ WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING.
 - The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. 
 - From each window, a vector of features was obtained by calculating variables from the time and frequency domain.
 
-### Attribute Information
+## Attribute Information
 For each record in the dataset it is provided:
 - Triaxial acceleration from the accelerometer (total acceleration). 
 - The estimated body acceleration.
@@ -47,14 +47,14 @@ For each record in the dataset it is provided:
 - Assign column names 
 - Merge to create one data set.
 
-### 2. Extract only the measurements on the mean and standard deviation for each measurement.
+## 2. Extract only the measurements on the mean and standard deviation for each measurement.
 - Create a vector that contains TRUE values for the ID, mean and stdev columns and FALSE values for the others. 
 - Subset this dataset to keep only the necessary columns.
 
-### 3. Use descriptive activity names to name the activities in the dataset
+## 3. Use descriptive activity names to name the activities in the dataset
 - Merge data subset with the activityType table to include the descriptive activity names
 
-### 4. Label the dataset with descriptive activity names.
+## 4. Label the dataset with descriptive activity names.
 - Use gsub function for pattern replacement to clean up the data labels.
 
-### 5. Create a second dataset with the average of each variable for each activity and each subject.
+## 5. Create a second dataset with the average of each variable for each activity and each subject.
