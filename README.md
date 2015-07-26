@@ -1,5 +1,4 @@
-# Getting-CleaningData
-Coursera - Getting and Cleaning Data - Course project
+## Coursera - Getting and Cleaning Data - Course project
 Repository for the submission of the course project for the Johns Hopkins "Getting and Cleaning Data" course.
 
 ##Overview
